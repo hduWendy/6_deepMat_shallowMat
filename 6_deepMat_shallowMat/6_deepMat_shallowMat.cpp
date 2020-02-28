@@ -7,7 +7,7 @@
 using namespace cv;
 int main()
 {
-	//读取本地的一张图片，对比深复制和浅复制的区别，并显示出来
+	//读取本地的一张图片，对比深复制和浅复制的区别，并显示出来！
 	cv::Mat srcMat = imread("C:/Users/lenovo/Desktop/推文/1.jpg");
 	cv::Mat deepMat, shallowMat; //分别命名采用深浅复制的图像
 	srcMat.copyTo(deepMat); //深复制
